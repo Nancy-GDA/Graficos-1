@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+      <title>Graficos por computadora 1</title>
+      <link rel="stylesheet" href="/css/transformations.css">
+</head>
+
+<body>
+      <h1>Implementación del algoritmo de trazado de líneas de Bresenham</h1>
+      <!-- Archivo con la rutina para pintar las líneas utilizando javascript -->
+      <script src="/js/transformations.js"></script>
+      <!-- Indicar el color de pintado -->
+      <div class="main-container">
+
+            <p>color<input id="color" type="color" onchange="change_color()" />
+                  <!-- Botón para llamar a la funci�n que muestra el punto -->
+                  <p>
+                        dx<input id="dx" type="text" size="2" /> <!-- Campo texto para  -->
+                        dy<input id="dy" type="text" size="2" /> <!-- Campo texto para  -->
+                        
+                        <!-- Botón para llamar a la función que muestra el punto -->
+                        <input id="transfer" type="button" value="Trasladar" onclick="transfer()" />
+                  </p>
+                  
+                  <p>
+                        <!-- Campo texto para sy y sx -->
+                        sx<input id="sx" type="text" size="2" />
+                        sy<input id="sy" type="text" size="2" />
+                        
+                        <!-- Botón para llamar a la función que muestra el punto -->
+                        <input id="climb" type="button" value="Escalar" onclick="climb()" />
+                  </p>
+                  
+                  <p>
+                        <!-- Campo texto para  indicar el ángulo de rotación-->
+                        Ángulo<input id="angle" type="text" size="2" />
+                        
+                        <!-- Botón para llamar a la funci�n que muestra el punto -->
+                        <input id="rotate" type="button" value="Rotar" onclick="rotate()" />
+                  </p>
+                  <input id="subtract" type="button" value="Reiniciar" onclick="subtract()" /></p>
+      </div>
+
+      <!-- Lienzo para pintar las l�neas -->
+      <canvas id="lienzo" width="1205" height="450" onmousedown="draw(event)">
+      </canvas> <!-- La función dibujar se ejecuta cada que se hace clic sobre el lienzo -->
+      <a href="../index.html"><button>Regresar</button></a>
+</body>
+
+</html>

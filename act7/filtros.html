@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/filtros.css">
+    <title>Graficos por cumputadora</title>
+</head>
+<body>
+    <figure >
+        <img src="/css/color.jpg" class="photo" id="img">
+    </figure>
+	<section  class="change">
+		<div>
+		    <label>Desenfoque</label><input type="range" id="blur" value="0"><br>
+		    <label>Contraste</label><input type="range" id="contrast" value="1"><br>
+		    <label>Escala de grises</label><input type="range" id="grayscale" value="0"><br>
+		    <label>Brillo</label><input type="range" id="brightness" value="100"><br>
+		    <label>Sepia</label><input type="range" id="sepia" value="0"><br>
+	    </div>
+	    <div>
+		    <label>hue-rotate</label><input type="range" id="hueRotate" value="0" max="360"><br>
+		    <label>invert</label><input type="range" id="invert" value="0"><br>
+		    <label>Opacity</label><input type="range" id="opacity" value="100"><br>
+		    <label>Saturate</label><input type="range" id="saturate" value="100"><br>
+	    </div>
+	</section>
+	<a href="../index.html"><button>Regresar</button></a>
+	<script src="../js/filtros.js"></script>
+</body>
+</html>

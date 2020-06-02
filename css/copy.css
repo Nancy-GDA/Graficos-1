@@ -1,0 +1,14 @@
+canvas {
+    border-style: solid;
+}
+
+button{
+    text-decoration: none;
+    padding: 8px;
+    background-color:#0A95A0 ;
+    font-size: 15px;
+    border-radius: 7px;
+    font-weight: 400;
+    color: white;
+    margin:0 0 0 670px ;  
+}
