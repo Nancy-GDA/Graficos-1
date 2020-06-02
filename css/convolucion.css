@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.canvas1{
+    
+    border: 1px solid red;
+}
+section{
+    display: flex;
+}

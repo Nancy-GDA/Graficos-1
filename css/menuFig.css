@@ -1,0 +1,65 @@
+#photo{
+    width: 210px;
+    border-radius: 10%;
+}
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    background-image: url(../css/fondo.jpg);
+    
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0  470px;
+    width: 400px;
+    border: 1px solid white;
+    -webkit-box-shadow:0px 1px 1px white;
+    -moz-box-shadow:0px 1px 1px white;
+    box-shadow:0px 1px 1px  white;
+    
+}
+#uno{
+    text-align: center;
+    font-size: 30px;
+    color:aliceblue;
+}
+a{
+    color: aliceblue;
+}
+
+.menu-points{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0 0  470px;
+    width: 300px;
+    height: 250px;
+    padding: 5px;
+    
+}
+
+
+li{
+    list-style: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+button{
+    text-decoration: none;
+    padding: 3px;
+    background-color:#0A95A0 ;
+    font-size: 15px;
+    border-radius: 7px;
+    font-weight: 300;
+    color: white;
+    margin:0 0 10px 20px ;  
+}
